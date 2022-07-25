@@ -62,9 +62,16 @@ public class Text {
 //        for(String array:args){
 //            System.out.println(array);
 //        }
-        int num = 1 + (int)(Math.random() * (99999999-1+1));
+//        String value = "11";
+//        System.out.println(value.equals("44"));
 
-        System.out.println(num);
+        String value = "1189080?9-0909r/?";
+        for(char i:value.toCharArray()){
+            System.out.println(i);
+            if(i=='?'){
+                System.out.println("有问号");
+            }
+        }
     }
 
 }
